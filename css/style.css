@@ -1,0 +1,116 @@
+body {
+    color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/2.jpg');
+
+            font-family: 'Baloo Bhaina 2', cursive;
+            
+        }
+        
+        .left {
+            position: absolute;
+            left: 33px;
+            top: 25px;
+            display: inline-block;
+            /* border: 2px solid red; */
+            font-size: 35px;
+            line-height: 77px;
+            background-color: bl;
+            border-radius: 10px;
+
+            
+            
+
+        }
+
+        .left img {
+            width: 87px;
+            filter: invert(53.3);
+            
+        }
+
+        .mid {
+            display: block;
+            width: 44%;
+            margin: 20px auto;
+            /* border: 2px solid blue; */
+            text-align: center;
+            font-size: 100%;
+        }
+        
+        .right {
+            position: absolute;
+            right: 80px;
+            top: 4px;
+            display: inline-block;
+            /* border: 2px solid green; */
+        }
+        
+        .navbar {
+            display: inline-block;
+        }
+        
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+            
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 30px 10px;
+        }
+        
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+        }
+        
+        .btn {
+            margin: 24% 4px;
+            color: white;
+            background-color: black;
+            padding: 4px 15px;
+            border: 2px solid burlywood;
+            border-radius: 10px;
+            font-size: 10px;
+            cursor: pointer;
+            font-family: 'Baloo Bhaina 2', cursive;
+            
+            
+        }
+        
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container {
+            
+            margin: 21px 3px;
+        }
+            padding: 75px;
+            width: 250px;
+            border-radius: 180px;
+            
+
+        }
+        
+        .form-group input {
+            margin: 15px 0px;
+            text-align: center;
+            display: block;
+            border: 2px solid rebeccapurple;
+            padding: 5px;
+            width: 197px;
+            border-radius: 5px;
+        }
+        
+        .form-group input:hover {
+            text-decoration: underline;
+        }
+        .form-group button{
+            display: inline-block;
+        

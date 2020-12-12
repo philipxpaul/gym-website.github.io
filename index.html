@@ -1,0 +1,183 @@
+<?php
+$host="localhost";
+$user="root";
+$password="";
+$db="demo";
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/2.jpg');
+
+            font-family: 'Baloo Bhaina 2', cursive;
+
+        }
+
+        .left {
+            position: absolute;
+            left: 33px;
+            top: 25px;
+            display: inline-block;
+            /* border: 2px solid red; */
+            font-size: 35px;
+            line-height: 77px;
+            background-color: bl;
+            border-radius: 10px;
+
+
+
+
+        }
+
+        .left img {
+            width: 87px;
+            filter: invert(53.3);
+
+        }
+
+        .mid {
+            display: block;
+            width: 44%;
+            margin: 20px auto;
+            /* border: 2px solid blue; */
+            text-align: center;
+            font-size: 100%;
+        }
+
+        .right {
+            position: absolute;
+            right: 80px;
+            top: 4px;
+            display: inline-block;
+            /* border: 2px solid green; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 30px 10px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .btn {
+            margin: 24% 4px;
+            color: white;
+            background-color: black;
+            padding: 4px 15px;
+            border: 2px solid burlywood;
+            border-radius: 10px;
+            font-size: 10px;
+            cursor: pointer;
+            font-family: 'Baloo Bhaina 2', cursive;
+
+
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container {
+
+            margin: 21px 3px;
+            padding: 75px;
+            width: 250px;
+            border-radius: 180px;
+
+
+        }
+
+        .form-group input {
+            margin: 15px 0px;
+            text-align: center;
+            display: block;
+            border: 2px solid rebeccapurple;
+            padding: 5px;
+            width: 197px;
+            border-radius: 5px;
+        }
+
+        .form-group input:hover {
+            text-decoration: underline;
+        }
+        .form-group button{
+            display: inline-block;
+        }
+    </style>
+
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <div>FITNESS WORLD</div>
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">fitness calculation</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us </button>
+            <button class="btn">Email us</button>
+
+        </div>
+        <div class=" container">
+            <h1>Join the best gym of Delhi now</h1>
+            <form method="POST" action="#">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <button class="btn">submit</button>
+                <button class= "btn" type="reset">reset</button>
+                
+            </form>
+        </div>
+
+
+    </header>
+
+</body>
+
+</html>
